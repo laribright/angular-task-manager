@@ -1,0 +1,40 @@
+:host {
+  display: block;
+  font-family: system-ui, sans-serif;
+  color: #172033;
+}
+main {
+  max-width: 640px;
+  margin: 40px auto;
+  padding: 24px;
+}
+form {
+  display: grid;
+  gap: 12px;
+  margin: 24px 0;
+}
+input,
+button {
+  padding: 12px;
+  font: inherit;
+  border-radius: 8px;
+}
+input {
+  border: 1px solid #cbd5e1;
+}
+button {
+  border: 0;
+  background: #4338ca;
+  color: white;
+  cursor: pointer;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+[role='alert'] {
+  color: #b91c1c;
+}
+li {
+  padding: 12px 0;
+}
